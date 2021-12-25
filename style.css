@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 900px;
+}
+.card{
+    position:relative;
+    width:350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    box-shadow: 12px 12px 8px 1px hsl(218, 58%, 6%);
+}
+.content > img{
+    width: 85%;
+    border-radius: 1em;
+    margin: 7.5%;
+}
+.content h1{
+    display:inline-block;
+    cursor: pointer;
+    color:white;
+    margin: 0 7.5%;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.niebieski{
+    color: hsl(215, 51%, 70%);
+    padding: 0 7.5%;
+    font-size: 1.125em;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.space_between{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7.5%;
+    border-bottom: 1px hsl(215, 32%, 27%) solid;
+}
+.left{
+    display: flex;
+    align-items: center;
+    color:hsl(178, 100%, 50%);
+    font-weight: 700;
+    margin: 0;
+}
+.left img{
+    max-height: 20px;
+    padding-right: 5px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    color:hsl(215, 51%, 70%);
+    margin: 0;
+}
+.right img{
+    padding-right: 5px;
+}
+.footer{
+    display:flex;
+    align-items: center;
+    margin: 3% 7.5%;
+    color:hsl(215, 51%, 70%);
+}
+span{
+    color:white;
+    margin: 5px;
+    cursor: pointer;
+}
+.footer img{
+    width: 10%;
+    margin-right: 15px;
+    border:1px white solid;
+    border-radius: 1em;
+}
+p{
+    margin:15px 0;
+}
+.nakladka {
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    width: 85%;
+    height: 300px;
+    border-radius: 1em;
+    margin: 7.5%;
+    background: rgba(0, 255, 247, 0);
+    top:0px;
+    display: flex;
+    cursor: pointer;
+}
+.nakladka:hover{
+    background: rgba(0, 255, 247, 0.5);
+}
+.nakladka img{
+    opacity: 0;
+    padding: 125px;
+    padding: 125px;
+}
+.nakladka img:hover{
+    opacity: 1;
+}
+.content h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+span:hover{
+    color:hsl(178, 100%, 50%);
+}
